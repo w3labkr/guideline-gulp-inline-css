@@ -1,0 +1,17 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-family: sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.color {
+  color: black;
+}

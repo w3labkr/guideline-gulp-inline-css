@@ -1,0 +1,31 @@
+{
+    "extends": [
+        "stylelint-config-recommended",
+        "stylelint-config-styled-components",
+        "stylelint-config-rational-order",
+        "stylelint-prettier/recommended"
+    ],
+    "plugins": [
+        "stylelint-csstree-validator",
+        "stylelint-order",
+        "stylelint-config-rational-order/plugin"
+    ],
+    "ignoreFiles": [
+        "**/*.js",
+        "**/*.min.css"
+    ],
+    "rules": {
+        "csstree/validator": true,
+        "order/order": [],
+        "order/properties-order": [],
+        "plugin/rational-order": [
+            true,
+            {
+                "border-in-box-model": true,
+                "empty-line-between-groups": true
+            }
+        ],
+        "block-no-empty": null,
+        "property-no-vendor-prefix": null
+    }
+}

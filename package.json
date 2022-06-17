@@ -1,0 +1,47 @@
+{
+    "name": "guideline-gulp-inline-css",
+    "version": "1.0.0",
+    "description": "Example of gulp for the W3LabKr open source project.",
+    "main": "index.js",
+    "scripts": {
+        "clean:dir": "rm -rf node_modules",
+        "clean:cache": "npm cache clean --force",
+        "clean": "npm run clean:dir && npm run clean:cache",
+        "build": "npm run clean && npm install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/w3labkr/guideline-gulp-inline-css.git"
+    },
+    "keywords": [
+        "guideline",
+        "gulp",
+        "inline-css"
+    ],
+    "author": "W3LabKr",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/w3labkr/guideline-gulp-inline-css/issues"
+    },
+    "homepage": "https://github.com/w3labkr/guideline-gulp-inline-css#readme",
+    "devDependencies": {
+        "@types/gulp-imagemin": "^7.0.3",
+        "browserslist": "^4.20.3",
+        "del": "^6.1.1",
+        "gulp": "^4.0.2",
+        "gulp-file-include": "^2.3.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-inline-css": "^4.0.0",
+        "gulp-jsbeautifier": "^3.0.1",
+        "js-beautify": "^1.14.3",
+        "prettier": "^2.6.2",
+        "stylelint": "^14.8.2",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-recommended": "^7.0.0",
+        "stylelint-config-styled-components": "^0.1.1",
+        "stylelint-csstree-validator": "^2.0.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-prettier": "^2.0.0"
+    }
+}
